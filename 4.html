@@ -1,0 +1,30 @@
+<script type="text/javascript">
+
+
+
+    function number(num1, num2, num3, num4) {
+
+        var num1 = parseFloat(prompt("Enter first number: "));
+        var num2 = parseFloat(prompt("Enter second number: "));
+        var num3 = parseFloat(prompt("Enter third number: "));
+        var num4 = parseFloat(prompt("Enter Fourth number: "));
+        var largest;
+        
+        if (num1 >= num2 && num1 >= num3 && num1 >= num4) {
+            largest = num1;
+        }
+        else if (num2 >= num3 && num2 >= num4) {
+            largest = num2;
+        }
+        else if (num3 >= num4) {
+            largest = num3;
+        }
+        else {
+            largest = num4;
+        }
+
+        console.log("The largest number is " + largest);
+    }
+
+    number();
+</script>

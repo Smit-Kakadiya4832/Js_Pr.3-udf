@@ -1,0 +1,41 @@
+<script type="text/javascript">
+    function number() {
+
+        var a = 10;
+        var b = 5;
+        var num = prompt("Enter a choice(+ , - ,* ,/ ): ");
+
+
+        Addition = a + b;
+
+        Subtraction = a - b;
+
+        Multiplication = a * b;
+
+        Division = a / b;
+
+
+        switch (num) {
+            case '+':
+                console.log("Addition Value = " + Addition);
+                break;
+
+            case '-':
+                console.log("Subtraction Value = " + Subtraction);
+                break;
+
+            case '*':
+                console.log("Multiplication Value = " + Multiplication);
+                break;
+
+            case '/':
+                console.log("Division Value = " + Division);
+                break;
+
+            default:
+                console.log("Enter Right Value");
+        }
+    }
+
+    number();
+</script>
